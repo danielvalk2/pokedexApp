@@ -18,7 +18,7 @@ function Card(props) {
       <img src={props.src} className="card-img-top" alt="..." />
       <div className="card-body">
         <Link href={{pathname: "pokemons/[id]", query: {id: props.id}}}>
-        <a><h5 className="card-title">{props.title}</h5></a>
+        <a><h5 className="card-title text-center">{props.title}</h5></a>
         </Link>
         <p className="card-text"></p>
         {likes == 0 ? null : <p className="card-text">Likes{likes}</p>}
