@@ -19,6 +19,7 @@ a {
 
 * {
   box-sizing: border-box;
+  padding: 15px;
 }
 
 @media (prefers-color-scheme: white) {
