@@ -22,7 +22,7 @@ export default function Pokemon() {
     }, [router.isReady]);
 
     return (
-        <div className="container"  style={{padding: "60px 0px"}}>
+        <div className="container"  style={{padding: "60px 20px"}}>
             {isLoading ? (
                 <div className="spinner-border" role="status">
                     <span class="visually-hidden">Loading...</span>
@@ -33,7 +33,7 @@ export default function Pokemon() {
                     <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} className="mix-auto d-block" alt="..." style={{ height: "300px", width: "300px"}}/>
                     <div className="card-body text-center">
                         <h5 className="card-title">{pokemon.name}</h5>
-                        <p className="card-text">levels: {pokemon.min_level}</p>
+                        <p className="card-text">levels: {pokemon._base_experience}</p>
                         <Link href="/">
                             <a className="btn btn-primary">
                                 back
