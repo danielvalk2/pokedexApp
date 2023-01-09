@@ -41,7 +41,7 @@ export default function Pokemon() {
                         </Link>
                     </div>
                 </div>
-                <style jsx>{`
+                <style>{`
                     .card {
                       margin: 15px;
                     }
