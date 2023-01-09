@@ -27,6 +27,10 @@ function Card(props) {
         </button>
       </div>
     </div>
+    <div class="col-md-4 mb-4">
+      <div class="spring-warmth-gradient color-block mb-3 mx-auto rounded-circle z-depth-1-half"></div>
+      <h5>spring-warmth-gradient</h5>
+  </div>
   );
 }
 
