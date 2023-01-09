@@ -14,7 +14,7 @@ function Card(props) {
   const [likes, setLikes] = useState(0);
 
   return (
-    <div className="card col-4 d-flex justify-content-center d-block p-2 text-bg-secondary">
+    <div className="card col-4 d-flex justify-content-center d-block p-2 text-bg-success">
       <img src={props.src} className="card-img-top" alt="..." />
       <div className="card-body">
         <Link href={{pathname: "pokemons/[id]", query: {id: props.id}}}>
