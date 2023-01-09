@@ -41,14 +41,14 @@ export default function Pokemon() {
                         </Link>
                     </div>
                 </div>
-                <style>{`
+                <style>{
                     .card {
                       margin: 15px;
                     }
                     p {
                       color: blue;
                     }
-                 `}</style>
+                 }</style>
             ) : null}
         </div>
     );
