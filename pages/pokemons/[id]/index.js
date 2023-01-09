@@ -22,14 +22,14 @@ export default function Pokemon() {
     }, [router.isReady]);
 
     return (
-        <div className="container">
+        <div className="container"  style={{padding: "0px 30px"}}>
             {isLoading ? (
                 <div className="spinner-border" role="status">
                     <span class="visually-hidden">Loading...</span>
                 </div>
             ): null}
             {pokemon ? (
-                <div className="card" style={padding: "0px 30px"}>
+                <div className="card">
                     <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} className="mix-auto d-block" alt="..." style={{ height: "300px", width: "300px"}}/>
                     <div className="card-body text-center">
                         <h5 className="card-title">{pokemon.name}</h5>
