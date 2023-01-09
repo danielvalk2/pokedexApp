@@ -73,8 +73,6 @@ function App() {
         <div>
           <button onClick={() => { setOffset(offset + limit) }}>More</button>
         </div>
-        <div class="spring-warmth-gradient color-block mb-3 mx-auto rounded-circle z-depth-1-half"></div>
-        <h5>spring-warmth-gradient</h5>
       </div>
     </div>
   );
