@@ -42,7 +42,7 @@ export default function Pokemon() {
                     </div>
                 </div>
                 <style>{
-                    .card {
+                    .container {
                       margin: 15px;
                     }
                     p {
