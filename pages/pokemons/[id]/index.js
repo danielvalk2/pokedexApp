@@ -31,7 +31,7 @@ export default function Pokemon() {
             {pokemon ? (
                 <div className="card">
                     <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} className="mix-auto d-block" alt="..." style={{ height: "500px", width: "500px" }}/>
-                    <div className="card-body">
+                    <div className="card-body text-center">
                         <h5 className="card-title">{pokemon.name}</h5>
                         <p className="card-text">levels: {pokemon.min_level}</p>
                         <Link href="/">
