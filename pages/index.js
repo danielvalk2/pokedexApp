@@ -72,10 +72,6 @@ function App() {
         <div>
           <button onClick={() => { setOffset(offset + limit) }}>More</button>
         </div>
-        <div class="col-md-3 mb-4">
-          <div class="purple-gradient color-block mb-3 mx-auto rounded-circle z-depth-1"></div>
-          <h5 class="mb-0">purple-gradient</h5>
-         </div>
       </div>
     </div>
   );
