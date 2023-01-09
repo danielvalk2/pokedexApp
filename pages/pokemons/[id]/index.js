@@ -41,6 +41,14 @@ export default function Pokemon() {
                         </Link>
                     </div>
                 </div>
+                <style jsx>{`
+                    .card {
+                      margin: 15px;
+                    }
+                    p {
+                      color: blue;
+                    }
+                 `}</style>
             ) : null}
         </div>
     );
