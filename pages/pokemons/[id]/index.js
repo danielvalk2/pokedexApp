@@ -41,15 +41,6 @@ export default function Pokemon() {
                         </Link>
                     </div>
                 </div>
-                <div className="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h3>Pokedex app</h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <hr/>
-                        <p class="subtext">View here</p>
-                    </div>
-                </div>
             ) : null}
         </div>
     );
