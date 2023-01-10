@@ -29,7 +29,7 @@ export default function Pokemon() {
                 </div>
             ): null}
             {pokemon ? (
-                <div className="card">
+                <div className="card text-bg-success">
                     <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} className="mix-auto d-block" alt="..." style={{ height: "300px", width: "300px"}}/>
                     <div className="card-body text-center">
                         <h5 className="card-title">{pokemon.name}</h5>
