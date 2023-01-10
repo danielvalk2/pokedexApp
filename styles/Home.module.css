@@ -85,12 +85,6 @@
   max-width: 300px;
 }
 
-.card .img {
-  position: absolute;
-  top: 2px;
-  right: 30px;
-}
-
 .card:hover,
 .card:focus,
 .card:active {
