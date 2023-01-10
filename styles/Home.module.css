@@ -85,7 +85,7 @@
   max-width: 300px;
 }
 
-.card #info {
+#info .card{
   display: flex;
   justify-content: center;
   align-items: center;
