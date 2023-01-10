@@ -85,7 +85,7 @@
   max-width: 300px;
 }
 
-.img {
+.card .img {
   position: absolute;
   top: 2px;
   right: 30px;
