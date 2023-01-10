@@ -22,7 +22,7 @@ export default function Pokemon() {
     }, [router.isReady]);
 
     return (
-        <div className="container"  style={{padding: "30px 30px", justify-content:center}}>
+        <div className="container"  style={{padding: "30px 30px"}}>
             {isLoading ? (
                 <div className="spinner-border" role="status">
                     <span class="visually-hidden">Loading...</span>
