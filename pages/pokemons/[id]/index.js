@@ -29,7 +29,7 @@ export default function Pokemon() {
                 </div>
             ): null}
             {pokemon ? (
-                <div className="card text-bg-success" style={{position: "absolute" ;top: 20%;
+                <div className="card text-bg-success" style={{position: "absolute" ,top: 20%;
     left: 40%;
     margin-top: -40px;
     margin-left: -50px;
