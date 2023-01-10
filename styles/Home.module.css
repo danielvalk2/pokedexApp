@@ -85,7 +85,7 @@
   max-width: 300px;
 }
 
-#info {
+.card #info {
   display: flex;
   justify-content: center;
   align-items: center;
