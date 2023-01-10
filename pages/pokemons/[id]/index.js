@@ -41,7 +41,7 @@ export default function Pokemon() {
                         </Link>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
+                <div className="card" style="width: 18rem;">
                     <img src="..." class="card-img-top" alt="...">
                     <div class="card-body">
                         <h3>Pokedex app</h3>
