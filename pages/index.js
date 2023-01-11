@@ -34,7 +34,7 @@ function App() {
   const [pokemonList, setPokemonList] = useState([]);
   const [offset, setOffset] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
-  const limit = 22;
+  const limit = 21;
 
   useEffect(() => {
     setIsLoading(true);
