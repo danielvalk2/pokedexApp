@@ -1,6 +1,7 @@
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import styles from '../../../styles/Home.module.css'
 
 export default function Pokemon() {
     const [pokemon, setPokemon] = useState(null);
