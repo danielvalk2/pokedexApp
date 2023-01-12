@@ -23,7 +23,7 @@ export default function Pokemon() {
     }, [router.isReady]);
 
     return (
-        <div className="container"  style={{padding: "30% 30%", height: "100%"}}>
+        <div className="container"  style={{height: "0vh"}}>
             {isLoading ? (
                 <div className="spinner-border" role="status">
                     <span class="visually-hidden">Loading...</span>
@@ -31,7 +31,7 @@ export default function Pokemon() {
             ): null}
             {pokemon ? (
                 <div className="card text-bg-success" id="card-img-top" style={{height: "auto",width: "50%",margin: "5px",translate: "50% 50%", position: "relative"}}>
-                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} className="Info" alt="..." style={{ height: "300px", width: "300px"}}/>
+                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} className="card-img-top" alt="..." style={{ position: "relative;"}}/>
                     <div className="card-body text-center">
                         <h5 className="card-title">{pokemon.name}</h5>
                         <p className="card-text">levels: {pokemon._base_experience}</p>
