@@ -85,7 +85,7 @@
   max-width: 300px;
 }
 
-card text-bg-success #info{
+#info.card text-bg-success{
   height:500px;
 }
 
