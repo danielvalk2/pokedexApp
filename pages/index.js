@@ -58,7 +58,7 @@ function App() {
           {pokemonList.map(pokemon => {
             const id= getIDFromPokemon(pokemon);
             return (
-              <Card key={id} id={id} title={pokemon["name"]} text="text" buttonText="like" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`} />
+              <Card key={id} id={id} title={pokemon["name"]} text="text" src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`} />
             );
           })}
         </div>
