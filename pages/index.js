@@ -21,10 +21,6 @@ function Card(props) {
         <a><h5 className="card-title text-center">{props.title}</h5></a>
         </Link>
         <p className="card-text">^</p>
-        {likes == 0 ? null : <p className="card-text">Likes{likes}</p>}
-        <button onClick={() => { setLikes(likes + 1) }} href="#" className="btn btn-primary">
-          {props.buttonText}
-        </button>
       </div>
     </div>
   );
