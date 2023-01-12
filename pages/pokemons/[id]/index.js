@@ -36,7 +36,7 @@ export default function Pokemon() {
                         <h5 className="card-title">{pokemon.name}</h5>
                         <p className="card-text">levels: {pokemon._base_experience}</p>
                         <Link href="/">
-                            <a className="btn btn-primary">
+                            <a className="btn btn-dark">
                                 back
                             </a>
                         </Link>
