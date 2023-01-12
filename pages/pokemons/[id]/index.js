@@ -12,7 +12,7 @@ export default function Pokemon() {
 
     useEffect(() => {
         if (!router.isReady) return;
-        fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
+        fetch(`https://pokeapi.co/api/v2/evolution-chain/${id}`)
             .then(response => {
                 return response.json();
             })
@@ -34,7 +34,7 @@ export default function Pokemon() {
                     <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} alt="..."/>
                     <div className="card-body text-center">
                         <h5 className="card-title">{pokemon.name}</h5>
-                        <p className="card-text">levels: {pokemon.location_area_encounters}</p>
+                        <p className="card-text">levels: {evolution.min_level}</p>
                         <Link href="/">
                             <a className="btn btn-dark">
                                 back
