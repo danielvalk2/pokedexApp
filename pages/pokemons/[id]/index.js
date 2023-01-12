@@ -31,7 +31,7 @@ export default function Pokemon() {
             ): null}
             {pokemon ? (
                 <div className="card text-bg-success" id="info" style={{display:"block", height: "auto",width: "50%",margin: "5px",translate: "50% 50%", position: "relative"}}>
-                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} alt="..." style={{ position: "relative",}}/>
+                    <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`} alt="..."/>
                     <div className="card-body text-center">
                         <h5 className="card-title">{pokemon.name}</h5>
                         <p className="card-text">levels: {pokemon._base_experience}</p>
