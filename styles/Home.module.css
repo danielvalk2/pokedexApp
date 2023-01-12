@@ -85,6 +85,10 @@
   max-width: 300px;
 }
 
+card text-bg-success #info{
+  height:500px;
+}
+
 .card:hover,
 .card:focus,
 .card:active {
