@@ -66,7 +66,7 @@ function App() {
           <span className="visually-hidden">Loading...</span>
         </div> : null}
         <div>
-          <button onClick={() => { setOffset(offset + limit) }}>More</button>
+          <button className="more" onClick={() => { setOffset(offset + limit) }}>More</button>
         </div>
       </div>
     </div>
