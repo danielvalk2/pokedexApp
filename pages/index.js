@@ -54,7 +54,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <div className="row">
+        <div className="row" style={{margin:"auto"}}>
           {pokemonList.map(pokemon => {
             const id= getIDFromPokemon(pokemon);
             return (
